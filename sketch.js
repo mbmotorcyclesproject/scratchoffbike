@@ -6,7 +6,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(motorcycle.width, motorcycle.height);
+ createCanvas(windowWidth, windowHeight);
 
   
   topLayer = createGraphics(width, height);
